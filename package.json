@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "test": "jest --config=jest.config.js",
+    "start": "http-server . -c-1"
+  },
+  "keywords": [
+    "programmers"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "3.2.3"
+  },
+  "devDependencies": {
+    "@babel/core": "7.14.6",
+    "@babel/preset-env": "7.14.7",
+    "babel-jest": "^25.1.0",
+    "http-server": "0.12.3",
+    "jest": "^24.9.0"
+  }
+}
